@@ -1,16 +1,46 @@
-# blind_vision_app
+# Lumos – Blind Navigation Assistance App
 
-A new Flutter project.
+---
 
-## Getting Started
+## 🛑 Problem Statement
+Visually impaired individuals face challenges navigating urban areas due to obstacles like stairs, vehicles, and uneven pathways. Existing aids provide limited awareness. **Lumos** offers real-time, accessible guidance via audio.
 
-This project is a starting point for a Flutter application.
+---
 
-A few resources to get you started if this is your first Flutter project:
+## 💡 Solution
+**Lumos** is a Flutter-based AI mobile app that:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- Captures surroundings using the smartphone camera.
+- Detects objects like doors, stairs, vehicles, and obstacles in real-time.
+- Converts visual data into audio cues for safer navigation.
+- Supports multiple languages and haptic feedback for contextual guidance.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+---
+
+## ⚙️ Tech Stack
+- **Framework:** Flutter  
+- **AI/ML:** TensorFlow Lite, MobileNet-SSD, Google Gemini Pro Vision API  
+- **Device APIs:** Camera, TTS (Text-to-Speech), Vibration, Sound  
+- **Persistence & Config:** AsyncStorage, React Native Config (if needed)  
+- **Version Control & IDE:** Git, GitHub, VS Code  
+
+---
+
+## 🚀 Key Features
+- Live object detection and environment analysis  
+- Audio and haptic feedback in real-time  
+- Supports urban and rural navigation  
+- Lightweight and efficient on-device processing  
+
+---
+
+## 🌐 Business Scope
+- **NGOs & Accessibility Foundations:** Empower visually impaired communities  
+- **CSR Initiatives:** Companies can sponsor or integrate Lumos  
+- **Public Sector & Smart Cities:** Inclusion in city accessibility projects  
+- **Monetization:** Freemium app with optional premium features; B2B licensing to public venues; data insights for urban planning  
+
+---
+
+## 📱 Contact
+Reach out via the email or Linkedin.
